@@ -1,0 +1,118 @@
+[
+  {
+    "Question": "Which tag is used to create a hyperlink in HTML?",
+    "Options": ["<link>", "<a>", "<href>", "<hyper>"],
+    "CorrectOptionIndex": 1
+  },
+  {
+    "Question": "What is the correct syntax to create a checkbox input?",
+    "Options": ["<input type=\"checkbox\">", "<checkbox>", "<input checkbox=\"true\">", "<input type=\"box\">"],
+    "CorrectOptionIndex": 0
+  },
+  {
+    "Question": "Which HTML tag is used to display a table row?",
+    "Options": ["<row>", "<tr>", "<td>", "<table-row>"],
+    "CorrectOptionIndex": 1
+  },
+  {
+    "Question": "Which property is used to change the text color in CSS?",
+    "Options": ["font-color", "text-style", "color", "text-color"],
+    "CorrectOptionIndex": 2
+  },
+  {
+    "Question": "What is the default position of an HTML element in the box model?",
+    "Options": ["absolute", "relative", "static", "fixed"],
+    "CorrectOptionIndex": 2
+  },
+  {
+    "Question": "Which class makes a button blue in Bootstrap?",
+    "Options": [".btn-primary", ".btn-blue", ".btn-info", ".btn-default"],
+    "CorrectOptionIndex": 0
+  },
+  {
+    "Question": "What does the class container-fluid do in Bootstrap?",
+    "Options": ["Sets a fixed-width layout", "Creates a full-width layout", "Adds background color", "Removes padding"],
+    "CorrectOptionIndex": 1
+  },
+  {
+    "Question": "Which class applies margin to the top of an element in Bootstrap?",
+    "Options": [".pt-3", ".mt-3", ".mb-3", ".ml-3"],
+    "CorrectOptionIndex": 1
+  },
+  {
+    "Question": "Which Bootstrap class makes an image responsive?",
+    "Options": [".img-responsive", ".image-fluid", ".img-fluid", ".responsive-img"],
+    "CorrectOptionIndex": 2
+  },
+  {
+    "Question": "Which of the following HTML5 elements is semantic and represents self-contained content?",
+    "Options": ["<div>", "<span>", "<section>", "<article>"],
+    "CorrectOptionIndex": 3
+  },
+  {
+    "Question": "Which CSS layout technique is best for creating a responsive, two-column layout with equal height columns?",
+    "Options": ["Floats", "Flexbox", "Inline-block", "Z-index"],
+    "CorrectOptionIndex": 1
+  },
+  {
+    "Question": "Which class in Bootstrap adds padding to all sides of an element?",
+    "Options": [".m-3", ".p-3", ".pt-3", ".pl-3"],
+    "CorrectOptionIndex": 1
+  },
+  {
+    "Question": "What does the Bootstrap class .d-none do?",
+    "Options": [
+      "Adds a shadow to the element",
+      "Centers the element",
+      "Hides the element",
+      "Disables the element"
+    ],
+    "CorrectOptionIndex": 2
+  },
+  {
+    "Question": "Which class is used to create a navigation bar in Bootstrap?",
+    "Options": [".nav", ".navbar", ".navigation", ".menu-bar"],
+    "CorrectOptionIndex": 1
+  },
+  {
+    "Question": "Which Bootstrap class centers text horizontally?",
+    "Options": [".text-left", ".text-right", ".text-center", ".center-text"],
+    "CorrectOptionIndex": 2
+  },
+  {
+    "Question": "What does the class .btn-danger do in Bootstrap?",
+    "Options": [
+      "Creates a red button",
+      "Disables the button",
+      "Adds danger icon",
+      "Applies a warning background"
+    ],
+    "CorrectOptionIndex": 0
+  },
+  {
+    "Question": "Which Bootstrap class is used to create a responsive grid column that spans 6 units on medium screens?",
+    "Options": [".col-sm-6", ".col-6", ".col-md-6", ".col-lg-6"],
+    "CorrectOptionIndex": 2
+  },
+  {
+    "Question": "Which Bootstrap class applies a shadow effect to an element?",
+    "Options": [".shadow", ".box-shadow", ".elevation", ".shadow-box"],
+    "CorrectOptionIndex": 0
+  },
+  {
+    "Question": "Which CSS property is used to set the background color of an element?",
+    "Options": ["color", "bg-color", "background-color", "background"],
+    "CorrectOptionIndex": 2
+  },
+  {
+    "Question": "What is the correct way to apply an external CSS file to an HTML document?",
+    "Options": [
+      "<style src='styles.css'>",
+      "<css href='styles.css'>",
+      "<link rel='stylesheet' href='styles.css'>",
+      "<stylesheet>styles.css</stylesheet>"
+    ],
+    "CorrectOptionIndex": 2
+  }
+
+]
