@@ -1,0 +1,127 @@
+[
+  {
+    "Question": "Which method returns the length of a string?",
+    "CodeSnippet": [],
+    "Options": ["length()", "len()", "getLength()", "length"],
+    "CorrectOptionIndex": 3,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What will be the result of the following code?",
+    "CodeSnippet": [
+      "let str = 'Hello World';",
+      "console.log(str.toLowerCase());"
+    ],
+    "Options": ["hello world", "HELLO WORLD", "Hello World", "undefined"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which method extracts a part of a string and returns it in a new string?",
+    "CodeSnippet": [],
+    "Options": ["slice()", "split()", "push()", "splice()"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What will be the output of the following?",
+    "CodeSnippet": [
+      "let str = 'JavaScript';",
+      "console.log(str.charAt(4));"
+    ],
+    "Options": ["S", "c", "a", "J"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which method can be used to replace part of a string?",
+    "CodeSnippet": [],
+    "Options": ["replace()", "switch()", "change()", "modify()"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What does the following code output?",
+    "CodeSnippet": [
+      "let str = 'apple,banana,cherry';",
+      "console.log(str.split(','));"
+    ],
+    "Options": [
+      "['apple banana cherry']",
+      "['apple,banana,cherry']",
+      "['apple', 'banana', 'cherry']",
+      "['a', 'p', 'p', 'l', 'e']"
+    ],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which method removes whitespace from both ends of a string?",
+    "CodeSnippet": [],
+    "Options": ["trim()", "strip()", "cut()", "clean()"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What will be the output of this code?",
+    "CodeSnippet": [
+      "let str = 'Hello';",
+      "console.log(str.includes('ell'));"
+    ],
+    "Options": ["true", "false", "undefined", "null"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What does Math.floor(5.9) return?",
+    "CodeSnippet": [],
+    "Options": ["5", "6", "5.9", "undefined"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which method returns the largest of zero or more numbers?",
+    "CodeSnippet": [],
+    "Options": ["Math.max()", "Math.highest()", "Math.top()", "Math.greatest()"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What will be the result of Math.abs(-8)?",
+    "CodeSnippet": [],
+    "Options": ["-8", "0", "8", "undefined"],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What does this code return?",
+    "CodeSnippet": ["console.log(Math.round(4.6));"],
+    "Options": ["4", "5", "4.5", "6"],
+    "CorrectOptionIndex": 1,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which Math method returns a random number between 0 (inclusive) and 1 (exclusive)?",
+    "CodeSnippet": [],
+    "Options": ["Math.random()", "Math.rand()", "Math.generate()", "Math.float()"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What will be the result of the following?",
+    "CodeSnippet": [
+      "let x = Math.pow(2, 3);",
+      "console.log(x);"
+    ],
+    "Options": ["6", "8", "9", "23"],
+    "CorrectOptionIndex": 1,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What does this return: Math.ceil(4.1)?",
+    "CodeSnippet": [],
+    "Options": ["4", "5", "4.5", "undefined"],
+    "CorrectOptionIndex": 1,
+    "OptionsChosen" : []
+  }
+]

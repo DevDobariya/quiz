@@ -1,0 +1,134 @@
+[
+  {
+    "Question": "Which of the following is a valid arrow function syntax?",
+    "CodeSnippet": [],
+    "Options": [
+      "const add = => (a, b) a + b;",
+      "function add(a, b) => a + b;",
+      "const add = (a, b) => a + b;",
+      "add = (a, b) <= a + b;"
+    ],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Arrow functions do NOT have their own:",
+    "CodeSnippet": [],
+    "Options": ["parameters", "return statement", "this", "arguments"],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What will this arrow function return?",
+    "CodeSnippet": ["const greet = () => 'Hello';", "console.log(greet());"],
+    "Options": ["Hello", "undefined", "null", "Syntax Error"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which of these correctly returns an object from an arrow function?",
+    "CodeSnippet": [
+      "const getObj = () => ({ name: 'Alice' });",
+      "console.log(getObj());"
+    ],
+    "Options": [
+      "{ name: 'Alice' }",
+      "[object Object]",
+      "undefined",
+      "Syntax Error"
+    ],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Can arrow functions be used as constructors with the 'new' keyword?",
+    "CodeSnippet": [],
+    "Options": ["Yes", "Only with return", "Only in ES6+", "No"],
+    "CorrectOptionIndex": 3,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What is the output?",
+    "CodeSnippet": [
+      "const numbers = [1, 2, 3];",
+      "const squares = numbers.map(n => n * n);",
+      "console.log(squares);"
+    ],
+    "Options": ["[2, 3, 4]", "[1, 2, 3]", "[1, 4, 9]", "[n * n, n * n, n * n]"],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which keyword allows block-level scope in JavaScript?",
+    "CodeSnippet": [],
+    "Options": ["var", "const", "let", "All except var"],
+    "CorrectOptionIndex": 3,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What is the output?",
+    "CodeSnippet": [
+      "if (true) {",
+      "  var x = 10;",
+      "}",
+      "console.log(x);"
+    ],
+    "Options": ["10", "undefined", "ReferenceError", "null"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What is the result of this code?",
+    "CodeSnippet": [
+      "if (true) {",
+      "  let y = 20;",
+      "}",
+      "console.log(y);"
+    ],
+    "Options": ["20", "undefined", "ReferenceError", "null"],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which statement is true about 'const' declarations?",
+    "CodeSnippet": [],
+    "Options": [
+      "They can be reassigned",
+      "They are hoisted like var",
+      "They must be initialized at declaration",
+      "They are function scoped"
+    ],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What is the output of the following?",
+    "CodeSnippet": [
+      "var a = 5;",
+      "function test() {",
+      "  var a = 10;",
+      "  console.log(a);",
+      "}",
+      "test();"
+    ],
+    "Options": ["5", "10", "undefined", "ReferenceError"],
+    "CorrectOptionIndex": 1,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What is the output?",
+    "CodeSnippet": [
+      "const a = 1;",
+      "a = 2;",
+      "console.log(a);"
+    ],
+    "Options": [
+      "2",
+      "1",
+      "undefined",
+      "TypeError"
+    ],
+    "CorrectOptionIndex": 3,
+    "OptionsChosen" : []
+  }
+]

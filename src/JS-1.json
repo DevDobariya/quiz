@@ -1,0 +1,67 @@
+[
+  {
+    "Question": "Which JavaScript method is used to collect user input through a dialog box?",
+    "Options": ["console.log()", "prompt()", "alert()", "document.getInput()"],
+    "CorrectOptionIndex": 1,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which operator in JavaScript is used to perform division?",
+    "Options": ["**", "//", "/", "div"],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "In JavaScript, what does the expression n % i === 0 check for?",
+    "Options": [
+      "If n is divisible by i",
+      "If n is equal to i",
+      "If n is a multiple of 10",
+      "If n and i are prime"
+    ],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which of the following numbers is not a prime number?",
+    "Options": ["2", "3", "9", "7"],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What is the value of x after this loop completes?\n\nlet x = 1;\nfor (let i = 1; i <= 3; i++) {\n  x *= i;\n}",
+    "Options": ["3", "6", "9", "4"],
+    "CorrectOptionIndex": 1,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which of the following is the most appropriate use-case for a loop in a factorial program?",
+    "Options": ["Checking equality", "Comparing strings", "Repeated multiplication", "Displaying alerts"],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "In a Fibonacci sequence, what is the value of the 5th number (starting from 0)?",
+    "Options": ["3", "4", "5", "8"],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which type of loop is most suitable for generating a sequence like Fibonacci in JavaScript?",
+    "Options": ["switch", "for", "try", "case"],
+    "CorrectOptionIndex": 1,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "Which of the following JavaScript methods is useful for manipulating individual characters in a string?",
+    "Options": ["push()", "pop()", "split()", "shift()"],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen" : []
+  },
+  {
+    "Question": "What JavaScript operator is used to raise a number to a power (e.g., 3³)?",
+    "Options": ["^", "**", "pow()", "%"],
+    "CorrectOptionIndex": 1,
+    "OptionsChosen" : []
+  }
+]

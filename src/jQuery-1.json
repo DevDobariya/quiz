@@ -1,0 +1,139 @@
+[
+  {
+    "Question": "Which of the following jQuery methods will both hide and show an element based on its current visibility?",
+    "CodeSnippet": [
+      "$('#myEle').____();"
+    ],
+    "Options": [
+      "fadeToggle",
+      "slideToggle",
+      "toggle",
+      "displayToggle"
+    ],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen": []
+  },
+  {
+    "Question": "What is the correct way to change the background color of all input elements when a button is clicked?",
+    "CodeSnippet": [
+      "$('button').click(function() {",
+      "  $('____').css('background-color', 'yellow');",
+      "});"
+    ],
+    "Options": [
+      "input",
+      "#input",
+      ".input",
+      "$input"
+    ],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen": []
+  },
+  {
+    "Question": "What will be the result of the following code if clicked inside a list item?",
+    "CodeSnippet": [
+      "$('li').click(function() {",
+      "  $(this).siblings().hide();",
+      "});"
+    ],
+    "Options": [
+      "Only the clicked item will be hidden",
+      "All list items will be hidden",
+      "All list items except the clicked one will be hidden",
+      "The parent list will be removed"
+    ],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen": []
+  },
+  {
+    "Question": "Which jQuery event handler is best suited to perform validation when the user moves away from an input field?",
+    "CodeSnippet": [
+      "$('#enroll').____(function() {",
+      "  // validate input",
+      "});"
+    ],
+    "Options": [
+      "change",
+      "blur",
+      "keydown",
+      "focusout"
+    ],
+    "CorrectOptionIndex": 1,
+    "OptionsChosen": []
+  },
+  {
+    "Question": "In the context of a registration form, which jQuery method is best for preventing the form from submitting until validation passes?",
+    "CodeSnippet": [
+      "$('form').____(function(e) {",
+      "  e.preventDefault();",
+      "  // validation logic",
+      "});"
+    ],
+    "Options": [
+      "onSubmit",
+      "submit",
+      "click",
+      "ready"
+    ],
+    "CorrectOptionIndex": 1,
+    "OptionsChosen": []
+  },
+  {
+    "Question": "What would be the result of this code if placed on a page with multiple paragraphs?",
+    "CodeSnippet": [
+      "$('p').mouseenter(function() {",
+      "  $(this).css('background-color', 'red');",
+      "});"
+    ],
+    "Options": [
+      "All paragraphs will turn red at once",
+      "Only the hovered paragraph turns red",
+      "Red color will stay permanently on all paragraphs",
+      "It will apply red only to the first paragraph"
+    ],
+    "CorrectOptionIndex": 1,
+    "OptionsChosen": []
+  },
+  {
+    "Question": "Which of the following jQuery selectors is used to apply styles only to children of a particular element, not all its descendants?",
+    "CodeSnippet": [],
+    "Options": [
+      ".find()",
+      ".siblings()",
+      ".children()",
+      ".parents()"
+    ],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen": []
+  },
+  {
+    "Question": "Which method will accurately add a new list item at the **beginning** of a list?",
+    "CodeSnippet": [
+      "$('ul').____('<li>First</li>');"
+    ],
+    "Options": [
+      "append",
+      "appendTo",
+      "prepend",
+      "insertBefore"
+    ],
+    "CorrectOptionIndex": 2,
+    "OptionsChosen": []
+  },
+  {
+    "Question": "What does the following code achieve?",
+    "CodeSnippet": [
+      "$(document).mousemove(function(e) {",
+      "  console.log('X:' + e.pageX + ' Y:' + e.pageY);",
+      "});"
+    ],
+    "Options": [
+      "It tracks the cursor position in the console",
+      "It logs the scroll position",
+      "It logs only click coordinates",
+      "It moves an element with the mouse"
+    ],
+    "CorrectOptionIndex": 0,
+    "OptionsChosen": []
+  }
+]

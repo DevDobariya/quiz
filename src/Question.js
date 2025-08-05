@@ -1,12 +1,16 @@
 function Question(props){
 
     const {dispatch, question, answeredCorrectly, answered, questionNo } = props
-    const {CorrectOptionIndex} = question
+    const {OptionsChosen, CorrectOptionIndex} = question
+    console.log("OptionsChosen", OptionsChosen);
+    let test_i = 2
+    console.log("Test:", ( test_i in OptionsChosen ? ( test_i === CorrectOptionIndex ? "success" : "danger"): "secondary" ))
+
 
     function handleChooseAnswer(index){
     dispatch({
       type: "optionChoosen", 
-      payload: index === CorrectOptionIndex
+      payload: index
     })
   }
 
@@ -18,17 +22,27 @@ function Question(props){
     dispatch({ type: "prevQuestion" })
   }
 
+
     return(
         <>
             <div className="col-9">
             <div className="card shadow-sm">
               <div className="card-body">
                 <h2 className="card-title mb-4">Q.{questionNo}   {question.Question}</h2>
+                <div className="container-fluid" style={{backgroundColor: "#dddddd"}}>
+                  
+                  {question.CodeSnippet.map( line => {
+                    return(
+                      <h2>{line}</h2>
+                    )
+                  } )}
+                </div>
                 
                 {
                   question.Options.map(( option, index ) => {
+                    console.log("Index: ", index, "     state: ", OptionsChosen.includes(index))
                     return(
-                      <button className="btn w-100 btn-secondary mt-3" style={{ fontSize: 20 }} 
+                      <button className={`btn w-100 btn-${ OptionsChosen.includes(index) ? ( index === CorrectOptionIndex ? "success" : "danger" ) : "secondary" } mt-3`} style={{ fontSize: 20 }} 
                           onClick={() => { handleChooseAnswer(index) }}>
                         {option}
                         </button>
@@ -36,6 +50,7 @@ function Question(props){
                   })
                 }
                 <div className="d-flex justify-content-between mt-5">
+                  
                   <button className="btn btn-outline-secondary" onClick={handlePrevious}>Previous</button>
                   {
                     answeredCorrectly ?

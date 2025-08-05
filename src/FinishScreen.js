@@ -5,6 +5,7 @@ function FinishScreen(){
             <div className="card shadow-sm">
               <div className="card-body">
                 <h1 className="card-title mb-4"> Finished </h1>
+                <h1 className="card-title mb-4"> This Quiz was made using React </h1>
               </div>
             </div>
           </div>

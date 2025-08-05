@@ -2,12 +2,14 @@
     {
         "Question": "Which of the following colors contain equal amounts of RBG?",
         "Options": ["White", "Gray", "Black", "All of the above"],
-        "CorrectOptionIndex" : 3
+        "CorrectOptionIndex": 3,
+        "OptionsChosen" : []
     },
     {
         "Question": "What is the correct syntax to write an HTML comment?",
         "Options": ["<!--Comment -->", "// Comment", "# Comment", "/* Comment */"],
-        "CorrectOptionIndex": 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
     },
     {
         "Question": "What is the effect of the <b> tag?",
@@ -16,7 +18,8 @@
             "It is used to write black-colored font.", 
             "It is used to change the font size.", 
             "None of the above"],
-        "CorrectOptionIndex": 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
     },
     {
         "Question": "What is the function of the HTML style attribute?",
@@ -25,7 +28,8 @@
             "It is used to uniquely identify some specific styles of some element.", 
             "Both A and B.", 
             "None of the above."],
-        "CorrectOptionIndex": 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
     },
     {
         "Question": "What is the select tag used for?",
@@ -34,12 +38,14 @@
             "Select some attributes and change their style.", 
             "Change text font.", 
             "None of the above."],
-        "CorrectOptionIndex": 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
     },
     {
         "Question": "What is the smallest header in HTML by default?",
         "Options": ["h1", "h2", "h6", "h4"],
-        "CorrectOptionIndex": 2
+        "CorrectOptionIndex": 2,
+        "OptionsChosen" : []
     },
     {
         "Question": "What is the speciality about the <small> and <big> tags in HTML?",
@@ -48,37 +54,44 @@
             "They can be used for text only.", 
             "They can be repeated.", 
             "None of the above."],
-        "CorrectOptionIndex": 2
+        "CorrectOptionIndex": 2,
+        "OptionsChosen" : []
     },
     {
         "Question": "What tag is used to render an image on a webpage?",
         "Options": [ "img", "src", "image", "None of the above"],
-        "CorrectOptionIndex": 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
     },
     {
         "Question": "Which attribute is used to provide a unique name to an HTML element?",
         "Options": [ "id", "class", "type", "None of the above"],
-        "CorrectOptionIndex": 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
     },
     {
         "Question": "Which HTML element is used to define description data?",
         "Options": [ "<li>", "<ol>", "<dd>", "<dl>"],
-        "CorrectOptionIndex": 2
+        "CorrectOptionIndex": 2,
+        "OptionsChosen" : []
     },
     {
         "Question": "Which HTML tag is called the root element of an HTML document?",
         "Options": [ "<html>", "<body>", "<title>", "<head>"],
-        "CorrectOptionIndex": 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
     },
     {
         "Question": "Which HTML tag is used to set up a Javascript-like client-side scripting language?",
         "Options": [ "<script>", "<select>", "<anchor>", "None of the above"],
-        "CorrectOptionIndex": 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
     },
     {
         "Question": "Which of the following are examples of block-level elements in HTML?",
         "Options": [ "<div>", "<p>", "<h1>", "All of the above"],
-        "CorrectOptionIndex": 3
+        "CorrectOptionIndex": 3,
+        "OptionsChosen" : []
     },
     {
         "Question": "What is meant by an empty tag in HTML?",
@@ -88,7 +101,8 @@
             "An empty tag cannot have any content within it", 
             "None of the above"
         ],
-        "CorrectOptionIndex": 1
+        "CorrectOptionIndex": 1,
+        "OptionsChosen" : []
     },
     {
         "Question": "Which of the following is correct about HTML?",
@@ -97,52 +111,62 @@
             "HTML uses tags defined within the language.", 
             "Both A and B.", 
             "None of the above"],
-        "CorrectOptionIndex": 1
+        "CorrectOptionIndex": 1,
+        "OptionsChosen" : []
     },
     {
         "Question": "Which of the following is the correct syntax for using the HTML style attribute?",
         "Options": ["<tagname style='property:value;'>","<tagname style='property;'>", "<tagname style=>", "None of the above"],
-        "CorrectOptionIndex" : 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
   },
 {
         "Question": "Which of the following is true about HTML tags?",
         "Options": ["Are case sensitive","Are not case sensitive", "Are in uppercase", "Are in Lowercase"],
-        "CorrectOptionIndex" : 1
+        "CorrectOptionIndex": 1,
+        "OptionsChosen" : []
   },
 {
         "Question": "Which of the following properties is used to change the font of text?",
         "Options": ["font-family","font-size", "text-align", "None of the above"],
-        "CorrectOptionIndex" : 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
   },
 {
         "Question": "Which of the following tags doesn’t require a closing tag?",
         "Options": ["<br>","<hr>", "Both A and B", "None of the above"],
-        "CorrectOptionIndex" : 2
+        "CorrectOptionIndex": 2,
+        "OptionsChosen" : []
   },
 {
         "Question": "Which of the following tags is used to indicate the page’s start and endpoints?",
         "Options": ["<body>","<html>", "<head>", "<doctype>"],
-        "CorrectOptionIndex" : 1
+        "CorrectOptionIndex": 1,
+        "OptionsChosen" : []
   },
 {
         "Question": "Which of the following things are necessary to create an HTML page?",
         "Options": ["A text editor","Web Browser", "Both A and B", "None of the above"],
-        "CorrectOptionIndex" : 2
+        "CorrectOptionIndex": 2,
+        "OptionsChosen" : []
   },
 {
         "Question": "Which property allows an image link to show a text label?",
         "Options": ["alt","str", "alternate", "None of the above"],
-        "CorrectOptionIndex" : 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
   },
 {
         "Question": "Which property is used to set border colors in HTML?",
         "Options": ["border-color","border", "Both A and B", "None of the above"],
-        "CorrectOptionIndex" : 1
+        "CorrectOptionIndex": 1,
+        "OptionsChosen" : []
   },
 {
         "Question": "Which property is used to set colors in HTML?",
         "Options": ["color","background-color", "font-color", "text-color"],
-        "CorrectOptionIndex" : 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
   },
 {
         "Question": " What is Bootstrap?",
@@ -150,27 +174,32 @@
 	"A CSS framework for designing responsive web pages",
 	"A database management system",
 	" A command-line interface tool"],
-        "CorrectOptionIndex" : 1
+        "CorrectOptionIndex": 1,
+        "OptionsChosen" : []
   },
 {
         "Question": "Which of the following class in Bootstrap is used to provide a responsive fixed width container?",
         "Options": [".container-fixed",".container-fluid",".container","All of the mentioned"],
-        "CorrectOptionIndex" : 2
+        "CorrectOptionIndex": 2,
+        "OptionsChosen" : []
   },
 {
         "Question": "Which Bootstrap class is used to create a green background in a table row?",
         "Options": ["table-success","table-primary","table-warning","table-info"],
-        "CorrectOptionIndex" : 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
   },
 {
         "Question": "Which utility class adds shadow effects to an element in Bootstrap?",
         "Options": ["shadow-box","shadow-lg","element-shadow","shadow-sm"],
-        "CorrectOptionIndex" : 1
+        "CorrectOptionIndex": 1,
+        "OptionsChosen" : []
   },
 {
         "Question": "What class makes an element sticky at the top of the viewport?",
         "Options": ["sticky-top","position-sticky","fixed-top","top-sticky"],
-        "CorrectOptionIndex" : 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
   },
 {
         "Question": "What does the abbreviation HTML stand for?",
@@ -179,6 +208,7 @@
             "HighText Markup Language.",
             "HyperText Markdown Language.",
             "None of the above"],
-        "CorrectOptionIndex" : 0
+        "CorrectOptionIndex": 0,
+        "OptionsChosen" : []
   }
 ]
